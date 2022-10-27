@@ -1,0 +1,56 @@
+.profile {
+  margin-top: 3rem;
+  position: relative;
+  width: 100%;
+  &-image {
+    border-radius: 50%;
+    display: flex;
+    height: 88px;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 88px;
+
+    &_picture {
+      cursor: pointer;
+      width: 100%;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+
+    &_icon {
+      bottom: 11px;
+      filter: invert(98%) sepia(100%) saturate(8%) hue-rotate(169deg)
+        brightness(104%) contrast(102%);
+      height: 20px;
+      margin: 0 auto;
+      pointer-events: none;
+      position: absolute;
+      width: 20px;
+    }
+  }
+
+  &-name {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &-share_icon {
+    align-items: center;
+    border-radius: 50%;
+    border: 1px dashed #d0d5dd;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    right: 208px;
+    top: -20px;
+    width: 40px;
+  }
+}
