@@ -1,0 +1,27 @@
+[
+  {
+    "type": "Twitter Link",
+    "source": "https://twitter.com/Ocholla_T"
+  },
+  {
+    "id": "btn__zuri",
+    "type": "Zuri Team",
+    "source": "https://training.zuri.team/"
+  },
+  { "id": "books", "type": "Zuri Books", "source": "http://books.zuri.team/" },
+  {
+    "id": "book__python",
+    "type": "Python Books",
+    "source": "https://books.zuri.team/"
+  },
+  {
+    "id": "pitch",
+    "type": "Background Check for Coders",
+    "source": "https://background.zuri.team/"
+  },
+  {
+    "id": "book__design",
+    "type": "Design Books",
+    "source": "https://books.zuri.team/design-rules"
+  }
+]
