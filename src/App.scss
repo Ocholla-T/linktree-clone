@@ -1,3 +1,5 @@
+@use './assets/styles/utils';
+
 .App {
   align-items: center;
   display: flex;
@@ -8,6 +10,10 @@
   max-width: 1440px;
   padding: 4rem 7rem;
   text-align: center;
+
+  @include utils.breakpoint-down(medium) {
+    padding: 2rem 1rem;
+  }
 }
 
 p {
