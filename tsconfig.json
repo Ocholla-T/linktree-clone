@@ -13,7 +13,8 @@
     "noEmit": true,
     "paths": {
       "@components": ["./components/*"],
-      "@images": ["./assets/images/*"]
+      "@images": ["./assets/images/*"],
+      "@ui": ["./components/ui/*"]
     },
     "resolveJsonModule": true,
     "skipLibCheck": true,
