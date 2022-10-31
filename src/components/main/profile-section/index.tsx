@@ -4,12 +4,11 @@ import cameraIcon from '@images/camera-outline.svg'
 import shareIcon from '@images/share-icon.svg'
 import './index.scss'
 type ProfileProps = {
-  name: string
-  image: string
+  name?: string
+  image?: string
 }
 
 const ProfileSection: FC<ProfileProps> = ({ name, image }) => {
-  const [display, setDisplay] = useState('none')
   const [isMouseEnter, setIsMouseEnter] = useState(false)
 
   return (
